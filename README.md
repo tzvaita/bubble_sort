@@ -18,7 +18,7 @@ Building the bubble sort algorithm
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is part of the Microverse Ruby project. It is an introduction to Ruby and algorithms as well.
+This project is part of the Microverse Ruby curriculum. It is an introduction to Ruby and algorithms as well.
 
 This project is a build up of the bubble sort algorithm. We built it to replicate the ruby .sort method.
 
@@ -54,7 +54,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Tennyson Zvaita - [@tennyzvaita](https://twitter.com/tennyzvaita) - tzvaita@gmail.com
 
-Fernando Del Valle - [@@fer_dv_](https://twitter.com/@fer_dv_) - ferdelvalle@gmail.com
+Fernando Del Valle - [@fer_dv_](https://twitter.com/@fer_dv_) - ferdelvalle@me.com
 
 Project Link: [Bubble sort](https://github.com/tzvaita/bubble_sort).
 
