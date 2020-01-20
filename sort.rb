@@ -12,7 +12,7 @@ def bubble_sort(array)
 
     n -= 1
   end
-  return array
+  array
 end
 
 def bubble_sort_by(array)
@@ -29,7 +29,7 @@ def bubble_sort_by(array)
 
     n -= 1
   end
-  return array
+  array
 end
 
 print bubble_sort([3, 2, 1]), "\n"
