@@ -1,21 +1,38 @@
+
 def bubble_sort(array)
-   # swapped = true
-    n = array.length
-   # while swapped
-       # swapped = false
-        (n-1).times do |x|
-            if array[x] > array[x + 1]
-                array[x], array[x + 1] = array[x + 1], array[x]
-                puts array
-              #  swapped = true
-            end
-        end
-    #end
-        
+  n = array.length - 1
+  (array.length-1).times {
+    swapped = false
+    n.times { |i|
+      if array[i] > array[i+1]
+        array[i] , array[i+1] = array[i+1], array[i] 
+        swapped = true
+      end
+    }
+    break unless swapped
+    n -= 1
+  }
+  return array
 end
 
-arr = [2,15,3,9,34,25]
+def bubble_sort_by(array)
+  n = array.length - 1
+  (array.length-1).times {
+    swapped = false
+    n.times { |i|
+      if yield(array[i] , array[i+1]) > 0
+        array[i] , array[i+1] = array[i+1], array[i] 
+        swapped = true
+      end
+    }
+    break unless swapped
+    n -= 1
+  }
+  return array
+end
+  
 
-bubble_sort(arr)
 
-p arr
+
+print bubble_sort([3,2,1]) , "\n"
+print bubble_sort_by(["pato", "camion", "papatzul"]) {|left, right| left.length - right.length}
