@@ -11,7 +11,7 @@ def bubble_sort(array)
     break unless swapped
 
     n -= 1
-    end
+  end
   return array
 end
 
@@ -28,9 +28,9 @@ def bubble_sort_by(array)
     break unless swapped
 
     n -= 1
-end
+  end
   return array
 end
 
 print bubble_sort([3, 2, 1]), "\n"
-print bubble_sort_by(["pato", "camion", "papatzul"]) {|left, right| left.length - right.length}
+print bubble_sort_by(%w[pato camion papatzul]) { |left, right| left.length - right.length }
