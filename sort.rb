@@ -33,4 +33,4 @@ def bubble_sort_by(array)
 end
 
 print bubble_sort([3, 2, 1]), "\n"
-print bubble_sort_by(%w[pato camion papatzul]) { |left, right| left.length - right.length }
+print bubble_sort_by(%w[camion pato papatzul]) { |left, right| left.length - right.length }
